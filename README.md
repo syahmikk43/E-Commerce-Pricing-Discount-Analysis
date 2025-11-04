@@ -98,7 +98,7 @@ The scatter plot shows a **strong positive relationship** between current price 
 
 ---
 
-## ⚠️ Caveats & Limitations
+## ⚠️ Limitations
 - No transaction data (e.g., sales, profit, quantity, or date).  
 - Single flat dataset — limited analytical relationships.  
 - Insights are **descriptive only**, not performance-based.  
