@@ -1,8 +1,8 @@
 # E-Commerce-Pricing-Discount-Analysis
 Analyzing product pricing, discounts, and RRP across multiple brands and categories.
+
 ## 📘 Project Background & Overview
 This project focuses on analysing pricing structures and discount behavior in an e-commerce retail environment. The dataset contains product-level details such as brand, category, gender, color, current price, discount, and recommended retail price (RRP).
-
 While it does not include sales or profit data, it still provides valuable insights into how pricing strategies differ across brands and product categories, and how discounts are applied to various product types and demographics.
 
 ### 🎯The analysis aims to uncover :
@@ -15,7 +15,7 @@ Through Excel and Tableau, this project demonstrates how limited but structured 
 ### 🚀The final interactive dashboard allows viewers to explore :
 - Key KPIs like average discount and price
 - Discount trends across brands and gender
-- Identify which colour appears most across listings
+- Displays most common product colors across listings
 - Analyze average current price by brand and categories.
 - Price vs RRP comparison
 
@@ -30,7 +30,6 @@ This project highlights analytical storytelling — turning simple retail data i
 
 
 ## 🗃️ Dataset Overview
-
 ### Data Description
 This dataset contains **product-level** information (not transaction-level).  
 It lacks sales quantity or profit data, so analysis focuses purely on **price and discount insights**.
@@ -58,4 +57,14 @@ To enhance the analysis, I add several new columns:
 These additional columns provided more insights into pricing trends and discount behavior across brands and categories.
 All fields are in a **single flat table** — no relational links.
 
+
+## 🧭 Executive Summary
+Despite being a limited dataset, several insights emerged:
+
+- Average discount rates vary widely by **brand** — some apply aggressive markdowns, others stay near full price.  
+- **Fashion-focused categories** tend to show higher discount behavior.  
+- The **top 10 colors** (Black, Blue, White, etc.) dominate across product listings.  
+- Most prices hover around **80–90% of RRP**, showing consistent markdown practices.
+  
+![Image Alt]([images/Tableau dashboard.png](https://github.com/syahmikk43-jpg/E-Commerce-Pricing-Discount-Analysis/blob/6c1d00af8f5e21e317d2e0daa95d1f4d57199c29/Tableau%20dashboard.png))
 
