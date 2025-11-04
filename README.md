@@ -75,7 +75,7 @@ Despite being a limited dataset, several insights emerged:
 ## 🔍 Insights Deep Dive
 ### 1️⃣ Average Discount by Brand
 - The chart shows significant variation in discount levels across brands. Some brands such as **Adidas** and **ASOS DESIGN** apply aggressive markdowns, while others like **Bench** or **Oskia** maintain lower discounts closer to retail. This suggests **diverse pricing strategies** for larger fashion brands rely on discounts to attract volume, whereas smaller or premium brands protect perceived value by discounting less.
-- 
+- In addition, men’s products tend to have slightly higher average discounts compared to women’s. This may indicate slower inventory turnover or stronger price competition within men’s categories, leading retailers to use deeper markdowns to drive conversions.
 
 ### 2️⃣ Top 10 Colors
 The **color distribution** shows that **neutral tones make up majority of the collection**, with **Black**, **White**, and **Grey** being the most common. This suggests a **consumer preference toward versatile and classic colors**, which are common in fashion retail. A limited range of color mixes could also mean that the company is more focused on its core inventory than on launching new colors based on trends or seasons.
