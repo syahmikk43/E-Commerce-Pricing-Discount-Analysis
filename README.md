@@ -66,5 +66,5 @@ Despite being a limited dataset, several insights emerged:
 - The **top 10 colors** (Black, Blue, White, etc.) dominate across product listings.  
 - Most prices hover around **80–90% of RRP**, showing consistent markdown practices.
   
-![Image Alt]([images/Tableau dashboard.png](https://github.com/syahmikk43-jpg/E-Commerce-Pricing-Discount-Analysis/blob/6c1d00af8f5e21e317d2e0daa95d1f4d57199c29/Tableau%20dashboard.png))
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/3d0a9d9a-3e2b-440f-80ec-f3794adcc5e5" />
 
