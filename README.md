@@ -5,14 +5,14 @@ This project focuses on analysing pricing structures and discount behavior in an
 
 While it does not include sales or profit data, it still provides valuable insights into how pricing strategies differ across brands and product categories, and how discounts are applied to various product types and demographics.
 
-## 🎯The analysis aims to uncover:
-- How pricing compares to RRP across brands and categories
+### 🎯The analysis aims to uncover :
+- How pricing compares to RRP across brands
 - Which brands or colors tend to offer higher discounts
 - The general price positioning and markdown practices within the dataset
 
-Through Excel (for cleaning and calculation) and Tableau (for visualization), this project demonstrates how limited but structured data can still be transformed into meaningful insights using effective data visualization design.
+Through Excel and Tableau, this project demonstrates how limited but structured data can still be transformed into meaningful insights using effective data visualization design.
 
-The final interactive dashboard allows viewers to explore:
+### 🚀The final interactive dashboard allows viewers to explore :
 - Key KPIs like average discount and price
 - Discount trends across brands and gender
 - Identify which colour appears most across listings
@@ -21,29 +21,41 @@ The final interactive dashboard allows viewers to explore:
 
 This project highlights analytical storytelling — turning simple retail data into visual insights about pricing behavior, brand strategy, and discount variability.
 
-## 🛠️ Tools & Resources :
+### 🛠️ Tools & Resources :
 - **Excel** — data preparation and cleaning 
 - **Tableau Public** — data visualization & dashboard design
-
-## 📎 Technical Resources :
-- 🖥️ [Tableau Dashboard (Public Link)](https://public.tableau.com/app/profile/syahmikk43/viz/E-CommercePricingDiscountAnalysisDashboard/Dashboard1)  
 - 📁 [Dataset Source (Kaggle)](https://www.kaggle.com/datasets/imrulhasanrobi/e-commerce-big-dataset-from-multi-category/data)
+- 📁 [Cleaned Data](https://github.com/syahmikk43-jpg/E-Commerce-Pricing-Discount-Analysis/tree/main/Cleaned%20data)
+- 🖥️ [Tableau Dashboard (Public Link)](https://public.tableau.com/app/profile/syahmikk43/viz/E-CommercePricingDiscountAnalysisDashboard/Dashboard1)  
 
-## 🗂️ Dataset Overview
+
+## 🗃️ Dataset Overview
+
 ### Data Description
 This dataset contains **product-level** information (not transaction-level).  
 It lacks sales quantity or profit data, so analysis focuses purely on **price and discount insights**.
 
+The dataset containing product listings with details such as:
 | Column Name | Description |
 |--------------|-------------|
-| **brand_name** | Product brand name |
-| **category** | Product group or type |
-| **gender** | Intended gender |
-| **colour** | Main product color |
-| **current_price** | Selling price |
-| **rrp** | Recommended retail price |
-| **previous_price** | Last recorded price before change |
-| **Discount Amount %** | Calculated price reduction from RRP |
+| `brand_name` | Product brand name |
+| `title` | Product title / name |
+| `current_price` | Current selling price |
+| `previous_price` | Price before discount |
+| `colour` | Product color |
+| `rrp` | Recommended retail price |
+| `Category` | Product category |
+| `Gender` | Target audience |
 
+To enhance the analysis, I add several new columns:
+| New Column | Formula | Purpose |
+|--------------|-------------|-------------|
+| `Discount Price` | `=previous_price - current_price` | calculated discount amount |
+| `Discount (%)` | `=(previous_price - current_price)/previous_price` | percentage discount |
+| `RRP Gap` | `=(rrp - current_price)/rrp` | difference between RRP and current price |
+| `Price Ratio` | `=current_price / rrp` | ratio of current price to RRP |
+
+These additional columns provided more insights into pricing trends and discount behavior across brands and categories.
 All fields are in a **single flat table** — no relational links.
+
 
