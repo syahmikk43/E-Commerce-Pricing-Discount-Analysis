@@ -58,6 +58,8 @@ To enhance the analysis, I add several new columns:
 These additional columns provided more insights into pricing trends and discount behavior across brands and categories.
 All fields are in a **single flat table** with no relational relationships.
 
+<img width="1920" height="767" alt="Image" src="https://github.com/user-attachments/assets/195e4f87-29a3-4421-b1a6-4b58d852f1e4" />
+
 ---
 
 ## 🧭 Executive Summary
