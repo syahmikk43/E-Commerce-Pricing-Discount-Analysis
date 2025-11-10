@@ -3,12 +3,12 @@
 This project focuses on analysing pricing structures and discount behavior in an e-commerce retail environment. The dataset contains product-level details such as brand, category, gender, color, current price, previous price, and recommended retail price (RRP).
 While it does not include sales or profit data, it still provides valuable insights into how pricing strategies differ across brands and product categories, and how discounts are applied to various product types and demographics.
 
-### The analysis aims to uncover :
+#### The analysis aims to uncover :
 - How pricing compares to RRP across brands.
 - Which brands or colors tend to offer higher discounts.
 - The general price positioning and markdown practices.
 
-### 🛠️ Resources :
+#### 🛠️ Resources :
 - 🔗 [Dataset Source (Kaggle)](https://www.kaggle.com/datasets/imrulhasanrobi/e-commerce-big-dataset-from-multi-category/data)
 - 📁 [Cleaned Data](https://github.com/syahmikk43-jpg/E-Commerce-Pricing-Discount-Analysis/tree/main/Cleaned%20data)
 - 🖥️ [Tableau Dashboard (Public Link)](https://public.tableau.com/app/profile/syahmikk43/viz/E-CommercePricingDiscountAnalysisDashboard/Dashboard1)  
@@ -16,9 +16,7 @@ While it does not include sales or profit data, it still provides valuable insig
 ---
 
 ## Dataset Overview
-### Data Description
-This dataset contains **product-level** information (not transaction-level).  
-It lacks sales quantity or profit data, so analysis focuses purely on **price and discount insights**.
+This dataset contains **product-level** information (not transaction-level). It lacks sales quantity or profit data, so analysis focuses purely on **price and discount insights**.
 
 The dataset containing product listings with details such as:
 | Column Name | Description |
@@ -60,28 +58,31 @@ Despite being a limited dataset, several insights emerged:
 ---
 
 ## Insights Deep Dive
-### 1️) Average Discount by Brand
+#### 1️) Average Discount by Brand
 The chart shows significant variation in discount levels across brands. Some brands such as **Adidas** and **ASOS DESIGN** apply aggressive markdowns, while others like **Bench** or **Oskia** maintain lower discounts closer to retail. This suggests **diverse pricing strategies** for larger fashion brands rely on discounts to attract volume, whereas smaller or premium brands protect perceived value by discounting less.
 In addition, men’s products tend to have slightly higher average discounts compared to women’s. This may indicate slower inventory turnover or stronger price competition within men’s categories, leading retailers to use deeper markdowns to boost conversions.
 
-### 2️) Top 10 Colors
+#### 2️) Top 10 Colors
 The **color distribution** shows that **neutral tones make up majority of the collection**, with **Black**, **White**, and **Grey** being the most common. This suggests a **consumer preference toward versatile and classic colors**, which are common in fashion retail. A limited range of color mixes could also mean that the company is more focused on its core inventory than on launching new colors based on trends or seasons.
 
-### 3️) Brand & Category Analysis
+#### 3️) Brand & Category Analysis
 Across categories, pricing varies particularly between brands. **ASOS DESIGN** and **Adidas Originals** show broader price ranges, implying diverse product selection from budget to premium. Meanwhile, **smaller focus brands** cluster within tighter price ranges, indicating stable pricing or limited Stock Keeping Units (SKUs). This visualisation highlights how **brand strategy directly influences pricing diversity** within categories.
 
-### 4️) Price vs RRP Comparison
+#### 4️) Price vs RRP Comparison
 The scatter plot shows a **strong positive relationship** between current price and RRP, confirming that most price reductions are proportional to original retail values. Most data points fall **below the line**, indicating that the majority of products are **discounted below RRP**. A few products appear near or above the line, these likely represent new or premium releases sold closer to full price. Overall, this suggests **consistent markdown practices** across brands.
 
 ---
 
-## 💡 Recommendations
-| Area | Action | Rationale |
-|-------|--------|-----------|
-| **Pricing Consistency** | Review brands with high discount volatility | To maintain fair pricing perception |
-| **Product Planning** | Focus on top color trends | Align product offering with consumer demand |
-| **Data Enhancement** | Add sales, cost, and profit columns | Enables more meaningful KPI and margin analysis |
-| **Modeling** | Build product–sales relational structure | Support advanced trend and profit analysis |
+## Recommendations
+- **Optimize markdown depth:** Several brands rely heavily on deep discounts, which may attract short-term sales but reduce perceived brand value and margin. The pricing or merchandising team should consider setting controlled discount thresholds and reserving heavy markdowns for seasonal clearance periods.
+
+- **Balance men’s vs women’s discounting:** The analysis shows men’s products receive higher average discounts. This may suggest lower demand or slower inventory turnover. Adjusting promotional frequency for men’s items and improving marketing visibility could help maintain sales without deep price cuts.
+
+- **Diversify product color mix:** Neutral tones dominate the catalog, which limits variety for trend-driven shoppers. The design or product planning team could introduce more vibrant seasonal colors to increase appeal and differentiate new collections.
+
+- **Review RRP setting strategy:** The current RRP often sits significantly above selling price, making discounts appear large but unrealistic. Recalibrating RRP values to better reflect actual market expectations will improve transparency and trust among customers.
+
+- **Enhance pricing consistency across brands:** Some brands show wide pricing gaps within the same category, which may confuse buyers or suggest inconsistent quality. Setting clearer pricing tiers or subcategories can help position products more effectively and improve buyer confidence.
 
 ---
 
