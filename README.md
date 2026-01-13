@@ -84,10 +84,3 @@ The scatter plot shows a **strong positive relationship** between current price 
 
 - **Enhance pricing consistency across brands:** Some brands show wide pricing gaps within the same category, which may confuse buyers or suggest inconsistent quality. Setting clearer pricing tiers or subcategories can help position products more effectively and improve buyer confidence.
 
----
-
-## Limitations
-- No transaction data (e.g., sales, profit, quantity, or date).  
-- Single flat dataset — limited analytical relationships.  
-- Insights are **descriptive only**, not performance-based.  
-- Currency fixed in USD — no regional or temporal context.
